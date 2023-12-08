@@ -15,7 +15,7 @@ app.use(fileUpload());
 
 //CONFIG
 dotenv.config({
-    path :"backend/config/.env"
+    path :"./config/.env"
 })
 
 //ROUTE IMPORTS
