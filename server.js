@@ -11,7 +11,7 @@ process.on("uncaughtException",(err) =>{
 
 //CONFIG
 dotenv.config({
-    path :"backend/config/.env"
+    path :"./config/.env"
 })
 connectDatabase();
 
